@@ -5,14 +5,15 @@ Header Text - #553100
 Main background - #D4A76A*/
 
 /*This is the font I want as a page default*/
-html {
+body {
   font-family: "Gill Sans", sans-serif;
+  background-color: #D4A76A;
 }
 
 /*Called this on header tag since there's only one of those*/
 header {
   background: #FFDBAA;
-  display: inline-block;
+  display: inline-flexbox;
   width: 100%; /*span the width of the page*/
   height: 7.5em;
   border-bottom: 1px solid #000000;
@@ -34,13 +35,13 @@ header {
   height: 3em;
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 100%;
   background-color: #805215;
+  padding: 1em;
   margin: .5em .25em .25em;
   text-align: center;
   display: inline-block;
   border: .2em;
-  padding: 1em;
 }
 
 /*Add these features for header buttons*/
@@ -59,7 +60,6 @@ header {
 /*Features I'd like for the main section*/
 main {
   text-align: center;
-  background-color: #D4A76A;
 }
 
 .offer-title {
@@ -72,10 +72,13 @@ main {
   background-color: #FFFFFF;
   inline-size: 15em;
   display: inline-block;
-  text-align: left;
-  padding: 0 0 0 .5em;
+  padding: .5em;
   margin: 1% 3%;
   box-shadow: .5em .5em 1em -.5em #000000;
+}
+
+.offer-text {
+  text-align: left;
 }
 
 .about-us {
