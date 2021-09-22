@@ -13,7 +13,7 @@ body {
 /*Called this on header tag since there's only one of those*/
 header {
   background: #FFDBAA;
-  display: inline-flexbox                                                  ;
+  display: inline-flexbox;
   width: 100%; /*span the width of the page*/
   height: 7.5em;
   border-bottom: 1px solid #000000;
